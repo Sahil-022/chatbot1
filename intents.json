@@ -1,0 +1,140 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening",
+        "Is anyone there?", "Hey there", "Howdy", "Hi there", "What's up",
+        "Yo", "Good afternoon", "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Great to see you. How can I assist?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "I am leaving", "Have a good day",
+        "Talk to you later", "Catch you later", "See ya", "Bye bye", "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Feel free to come back anytime.",
+        "Take care! I'm here whenever you need help."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Thanks a lot",
+        "Thank you so much", "Appreciate it", "Thanks for the help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "What is your name?", "Who are you?", "What can you do?",
+        "Tell me about yourself", "What are you?", "Are you a bot?",
+        "What is this chatbot?"
+      ],
+      "responses": [
+        "I'm an AI-powered chatbot assistant built with Python and NLP to help answer your questions.",
+        "I'm a virtual assistant designed to understand your queries and respond intelligently using NLP techniques.",
+        "You can call me ChatBot! I'm here to assist you with common questions in real time."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?", "When are you open?", "What time do you open?",
+        "What time do you close?", "Are you open now?", "Business hours"
+      ],
+      "responses": [
+        "We're open Monday to Saturday, 9 AM to 6 PM.",
+        "Our support hours are 9 AM - 6 PM, Monday through Saturday."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact support?", "What is your email?", "What is your phone number?",
+        "How do I reach you?", "Contact information", "Give me your contact details"
+      ],
+      "responses": [
+        "You can reach our support team at support@example.com or call +1-800-123-4567.",
+        "Feel free to email us at support@example.com for further assistance."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?", "Track my order", "What is the status of my order?",
+        "Has my order shipped?", "Order tracking", "I want to check my order status"
+      ],
+      "responses": [
+        "Please provide your order ID and I'll help you track it.",
+        "You can track your order using the tracking link sent to your email, or share your order ID here."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "What payment methods do you accept?", "Can I pay with credit card?",
+        "Do you accept PayPal?", "How can I make a payment?", "Payment options"
+      ],
+      "responses": [
+        "We accept credit/debit cards, PayPal, UPI, and net banking.",
+        "You can pay via credit card, debit card, PayPal, or UPI."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "How do I get a refund?", "What is your refund policy?", "Can I return this item?",
+        "I want a refund", "Refund process", "Return policy"
+      ],
+      "responses": [
+        "Our refund policy allows returns within 30 days of purchase. Please share your order ID to begin.",
+        "You can request a refund within 30 days. I can help you start the process if you provide your order ID."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help", "Can you help me?", "Help", "I have a problem",
+        "Something isn't working", "I need assistance", "Support"
+      ],
+      "responses": [
+        "Of course! Please tell me more about the issue you're facing.",
+        "I'm here to help. Could you describe your problem in more detail?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?", "Is it raining?", "Weather today",
+        "Tell me the weather", "How's the weather outside?"
+      ],
+      "responses": [
+        "I currently can't fetch live weather data, but you can check a weather app for real-time updates!",
+        "I'm not connected to a weather service right now, but I recommend checking your local forecast."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't quite understand that. Could you rephrase?",
+        "I'm not sure I understand. Can you try asking in a different way?",
+        "Hmm, I don't have an answer for that yet. Could you clarify your question?"
+      ]
+    }
+  ]
+}
